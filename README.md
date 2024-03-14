@@ -68,6 +68,8 @@ Following are some of the important cluster administrative tasks
 
 - [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)<sup>Official Doc</sup>
 
+- [ Setup Kubernetes Cluster Using Kubeadm](https://teckbootcamps.com/how-to-setup-kubernetes-cluster-using-kubeadm/)<sup>Blog</sup>
+
 ## Understand KubeConfig File
 
 As a DevOps engineer, it is important to become familiar with the Kubeconfig file. It is crucial for tasks such as setting up cluster authentication for CI/CD systems, providing cluster access to developers, and more.
