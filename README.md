@@ -132,16 +132,16 @@ The structure remains the same for all native Kubernetes objects. While learning
 
 All the essential concepts in Kubernetes center around the Pod. Understanding Pods in detail, along with their supported features, is crucial for anyone working with Kubernetes because many other objects in Kubernetes are built around them. Below are comprehensive guides that delve into various aspects of the Pod with real-world practical examples.
 
-- [Kubernetes Pod Explained]() <sup>Blog</sup>
+- [Kubernetes Pod Explained](https://teckbootcamps.com/kubernetes-pod-configuration-practical-tips-from-basics-to-advanced/) <sup>Blog</sup>
 - [multi-container pods](https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/)<sup>Blog</sup>
-- [Init Containers Explained]() <sup>Blog</sup>
+- [Sidecar Containers Explained](https://teckbootcamps.com/exploring-kubernetes-1-28-sidecar-container-support/) <sup>Blog</sup>
 - [Pod Lifecycle Phases]()<sup>Blog</sup>
-- [Pod Priority, PriorityClass, and Preemption]()<sup>Blog</sup>
+- [Pod Priority, PriorityClass, and Preemption](https://teckbootcamps.com/kubernetes-scheduling-scenario-practical-guide/)<sup>Blog</sup>
 - [Pod Quality or Service - QoS]()<sup>Blog</sup>
-- [Troubleshoot Pod]()<sup>Blog</sup>
+- [Troubleshoot Pod](https://teckbootcamps.com/troubleshooting-the-process-of-a-kubernetes-pod-being-killed/)<sup>Blog</sup>
 - [Container Lifecyle Hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/)<sup>Official Doc</sup>
-- [Pod Disruption Budget](https://cast.ai/blog/pod-disruption-budgets-in-your-deployment/)<sup>Blog</sup>
-- [Pod Affinity/Anti-Affinity](https://www.densify.com/kubernetes-autoscaling/kubernetes-affinity/)<sup>Blog</sup>
+- [Pod Disruption Budget](https://teckbootcamps.com/pod-disruption-budget-the-practical-guide/)<sup>Blog</sup>
+- [Pod Affinity/Anti-Affinity](https://teckbootcamps.com/kubernetes-scheduling-scenario-practical-guide/)<sup>Blog</sup>
 - [Pod Labels & Selectors](https://www.split.io/blog/kubernetes-labels-best-practices/)<sup>Blog</sup>
 
 In the topics above, we've covered all the core concepts of Pods that are used in production-level implementations. You should practice these concepts hands-on. Once you have a solid practical understanding of Pods, you can move on to learning about objects that depend on Pods.
@@ -237,7 +237,7 @@ An Ingress Controller is the part that actually makes the Ingress work. It is so
 
 
 
-**Ingress Controller Comparison**  [Comparison of Kubernetes Ingress controllers](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238)
+**Ingress Controller Comparison**  [Comparison of Kubernetes Ingress controllers](https://teckbootcamps.com/will-gateway-api-be-the-future-of-traffic-management-in-kubernetes/)
 
 ### Gateway API
 
@@ -276,7 +276,10 @@ Securing a Kubernetes cluster is not just a good practice; it's a necessity.
 
 **Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)<sup>Blog</sup>
 
+**Runtime Security** [Getting Started With Trivy ](https://teckbootcamps.com/kubernetes-notes-trivy/)<sup>Blog</sup>
+
 **Policy Enforcement**: [Open Policy Agent Guide](https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works)<sup>Blog</sup>
+
 
 ## Kubernetes Advanced Concepts
 
@@ -313,7 +316,7 @@ One real-world example is the Prometheus Operator. If you want to set up Prometh
 
 **Python Operator Framework** [Kopf](https://github.com/nolar/kopf)
 
-**CRD Framework** [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder)
+**CRD Framework** [Kubebuilder](https://teckbootcamps.com/complete-practical-example-of-kubernetes-crd-operator-kubebuilder/)
 
 **Custom Admission Webhooks** [Simple Kubernetes Admission Webhook](https://slack.engineering/simple-kubernetes-webhook/)
 
@@ -327,7 +330,6 @@ Helm is a package manager for Kubernetes that allows users to easily install, ma
 Kustomize, on the other hand, is a tool that allows users to customize and configure existing Kubernetes manifests. It uses a concept called "patches" which can be applied to existing manifests to customize them for different environments and use cases. Unlike Helm, Kustomize does not include built-in support for versioning and rollback, and does not have a concept of "packages" or "repositories".
 
 - [Learn to Create Helm Chart From Scratch]()<sup>Hands-On Blog</sup>
-- [Kuztomize Crash Course](https://techiescamp.com/courses/kubernetes-kustomize/)<sup>Free Course</sup>
 
 ## Kubernetes Deployment Tools (GitOps Based)
 
@@ -346,7 +348,6 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 
 - [Learn About 12 Factor Apps](https://12factor.net/) <sup>Official Guide</sup>
 - [Production Readiness Checklist](https://learnk8s.io/production-best-practices)<sup>Blog</sup>
-- [Recycling Kubernetes Nodes - Yelp](https://engineeringblog.yelp.com/2023/01/recycling-kubernetes-nodes.html)<sup>Blog</sup>
 
 ## Understand Capacity Planning
 
@@ -376,10 +377,4 @@ If you do not have real-world Kubernetes experience, it is better to read case s
 - [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
 - [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)<sup>Blog</sup>
 
-## AWS EKS Resources
 
-- [EKS Workshop](https://www.eksworkshop.com/)
-- [EKS Best Practices](https://aws.github.io/aws-eks-best-practices/)
-- [EKS Hardening](https://github.com/aws-samples/hardeneks)
-- [EKS Helm Charts](https://github.com/aws/eks-charts)
-- [EKS Blueprints](https://aws-quickstart.github.io/cdk-eks-blueprints/)
