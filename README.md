@@ -6,11 +6,16 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
-## Kubernetes Certification Voucher 🎉
+## Kubernetes Certification Voucher (UP TO 40% OFF) 🎉 🎉
 
 As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
 
-🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 20% OFF** today using code **TECK20** at https://teckbootcamps.com/linux-foundation-coupons/. It is a limited-time offer from the Linux Foundation.
+🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 30% OFF** today using code **TECK30** at https://teckbootcamps.com/go/kube-promo-devops/. It is a limited-time offer from the Linux Foundation.
+
+- KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): [teckbootcamps/kubestronaut](https://shrsl.com/4j3p6)
+- CKA + CKAD + CKS Exam bundle ($528 Savings): [teckbootcamps/k8s-bundle](https://shrsl.com/4j3oy)
+- CKA + CKS Bundle ($355 Savings) [teckbootcamps/bundle](https://shrsl.com/4j3ov)
+
 
 >Note: You have one year of validity to appear for the certification exam after registration
 
@@ -24,7 +29,7 @@ As part of our commitment to helping the DevOps community save money on Kubernet
 
 If you want to learn Kubernetes, it's important to start with the basics. That means brushing up on your IT fundamentals first because Kubernetes builds on those. Once you have a good grasp of the basics, learning Kubernetes can be fun and easy. So don't skip the fundamentals – take some time to study them before diving into Kubernetes!
 
-- [Learn Container concepts & Container Management Tool- Docker/Podman](https://teckbootcamps.com<sup>Blog</sup>
+- [Learn Container concepts & Container Management Tool- Docker/Podman](https://teckbootcamps.com/getting-started-with-docker-from-scratch/)<sup>Blog</sup>
 - [Understand Distributed system](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c) <sup>Blog</sup>
 - [Understand Authentication & Authorization](https://www.okta.com/identity-101/authentication-vs-authorization/) <sup>Blog</sup>
 - [Learn Basics of Key Value Store](https://redis.com/nosql/key-value-databases/)<sup>Blog</sup>
@@ -43,9 +48,11 @@ If you want to learn Kubernetes, it's important to start with the basics. That m
 
 The following image shows the high-level kubernetes architecture and how external services connect to the cluster.
 
+![](assets/architecture.webp)
+
 Refer to the following documents to learn the Kubernetes Architecture.
 
-- [Kubernetes Architecture Explained](https://kubernetes.io/fr/docs/concepts/architecture//)<sup>Blog</sup>
+- [Kubernetes Architecture Explained](https://teckbootcamps.com/learn-kubernetes-architecture/)<sup>Blog</sup>
 
 ## $1000+ Free Cloud Credits to Launch Clusters
 
@@ -61,14 +68,21 @@ As DevOps engineers, gaining a thorough understanding of each component and clus
 
 Additionally, mastering the configuration of multi-node clusters can be beneficial for interviews and building confidence in your abilities. The following are recommended ways to establish a Kubernetes cluster.
 
-- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)<sup>Github</sup>
+- [Kubernetes the Hard Way](https://github.com/teckbootcamps/kubernetes-projects/tree/main/01-kubernetes-the-hard-way-aws)<sup>Github</sup>
+
+- [Kubeadm Cluster Setup](https://teckbootcamps.com/how-to-setup-kubernetes-cluster-using-kubeadm/)<sup>Blog</sup>
+
+- [Minikube Development Cluster ](https://teckbootcamps.com/a-step-by-step-guide-for-minikube-multi-node-cluster-with-kubernetes-1-31/)<sup>Blog</sup>
+
 - [Kind Development Cluster](https://kind.sigs.k8s.io/)<sup>Official Documentation</sup>
 
 Following are some of the important cluster administrative tasks
 
 - [Deploy Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)<sup>Official Doc</sup>
 
-- [ Setup Kubernetes Cluster Using Kubeadm](https://teckbootcamps.com/how-to-setup-kubernetes-cluster-using-kubeadm/)<sup>Blog</sup>
+- [etcd backup using etcdctl](https://teckbootcamps.com/exploring-kubernetes-basic-usage-of-etcd/))<sup>Blog</sup>
+
+
 
 ## Understand KubeConfig File
 
@@ -80,7 +94,7 @@ The Kubeconfig file can be used to store information for multiple clusters and u
 
 Refer to the following document to learn about the Kubeconfig File in detail.
 
-- [Kubeconfig File Explained With Practical Examples](https://www.redhat.com/sysadmin/kubeconfig) <sup>Blog</sup>
+- [Kubeconfig File Explained With Practical Examples](https://teckbootcamps.com/kubeconfig-file-explained-with-practical-examples/) <sup>Blog</sup>
 
 ## Understand Kubernetes Objects And Resources
 
@@ -243,6 +257,8 @@ An Ingress Controller is the part that actually makes the Ingress work. It is so
 
 Gateway API is like an upgraded version of the Ingress system. It lets you define how traffic should be handled in a more detailed way. For example, you can specify different kinds of load balancing, or set up more complex routing rules.
 
+**Detailed Blog:** [Gateway API ](https://teckbootcamps.com/introducing-gateway-api-ingress-gateway-and-service-mesh-in-kubernetes/)
+
 **Official Documentation:** [Gateway API Documentation](https://gateway-api.sigs.k8s.io/)
 
 ## Learn to Implement Network Policy
@@ -261,7 +277,7 @@ Kubernetes Network Policy is like a set of rules for how pods can talk to each o
 
 ## Learn Kubernetes Logging & Monitoring
 
-<--In Progress-->
+**Detailed Blog:** [Gateway API ](https://teckbootcamps.com/kubernetes-security-auditing-practical-guide-in-6-steps/)
 
 ## Learn About Securing Kubernetes Cluster
 
@@ -275,6 +291,9 @@ Securing a Kubernetes cluster is not just a good practice; it's a necessity.
 **Kubernetes CIS Benchmarking**: [CIS Benchmarking using Kube-bench]()<sup>Blog</sup>
 
 **Runtime Security** [Getting Started With Falco](https://sysdig.com/blog/intro-runtime-security-falco/)<sup>Blog</sup>
+
+**Runtime Security** [Falco Guide](https://teckbootcamps.com/ultimate-guide-to-falco-everything-you-need-to-know/)<sup>Blog</sup>
+
 
 **Runtime Security** [Getting Started With Trivy ](https://teckbootcamps.com/kubernetes-notes-trivy/)<sup>Blog</sup>
 
@@ -292,7 +311,7 @@ Now that you have a basic understanding and practical knowledge of Kubernetes, y
    - **Validating Admission Webhooks:** They can be used to perform validations on Kubernetes objects and reject requests that do not meet certain criteria.
    - [**Mutating Admission Webhooks:**](https://medium.com/ibm-cloud/diving-into-kubernetes-mutatingadmissionwebhook-6ef3c5695f74)<sup>Blog</sup> They can be used to modify Kubernetes objects before they are stored (for example, to inject sidecar containers into pods).
 
-[**Custom Resource Definitions (CRDs):**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)<sup>Official Doc</sup> Extend Kubernetes API to create custom resources.
+[**Custom Resource Definitions (CRDs):**](https://teckbootcamps.com/complete-practical-example-of-kubernetes-crd-operator-kubebuilder/)<sup>Blog</sup> Extend Kubernetes API to create custom resources.
 
 [**Custom Resource & Controllers:**](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)<sup>Official Doc</sup> Custom Resources in Kubernetes are like adding your own new types of objects. Just like you have built-in objects like Pods, Deployments, and Services, you can create your own. This is useful when you want to introduce new concepts or configurations that Kubernetes doesn't already know about.
 
@@ -329,7 +348,10 @@ Helm is a package manager for Kubernetes that allows users to easily install, ma
 
 Kustomize, on the other hand, is a tool that allows users to customize and configure existing Kubernetes manifests. It uses a concept called "patches" which can be applied to existing manifests to customize them for different environments and use cases. Unlike Helm, Kustomize does not include built-in support for versioning and rollback, and does not have a concept of "packages" or "repositories".
 
-- [Learn to Create Helm Chart From Scratch]()<sup>Hands-On Blog</sup>
+- [Learn to Create Helm Chart From Scratch](https://teckbootcamps.com/helm-for-dummies/)<sup>Hands-On Blog</sup>
+
+- [Kuztomize Guide ](https://teckbootcamps.com/deploying-to-kubernetes-with-kustomize/)<sup>Free Course</sup>
+
 
 ## Kubernetes Deployment Tools (GitOps Based)
 
@@ -339,7 +361,7 @@ GitOps is a technical practice that uses Git as a single source of truth for dec
 
 Some popular GitOps-based tools for deploying applications to Kubernetes clusters are:
 
-- [Argo CD](https://argo-cd.readthedocs.io/en/stable/)<sup>Official Doc</sup>
+- [Argo CD Tutorial ](https://teckbootcamps.com/comprehensive-guide-argocd/)<sup>Blog</sup>
 - [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/)<sup>Official Doc</sup>
 - [FluxCD](https://fluxcd.io/)<sup>Official Doc</sup>
 - [JenkinsX](https://jenkins-x.io/)<sup>Official Doc</sup>
@@ -377,4 +399,10 @@ If you do not have real-world Kubernetes experience, it is better to read case s
 - [Reddit: The Pi-Day Outage](https://www.reddit.com/r/devops/comments/11zvig0/you_broke_reddit_the_piday_outage/)<sup>Blog</sup>
 - [How a Production Outage Was Caused Using Kubernetes Pod Priorities](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)<sup>Blog</sup>
 
+## AWS EKS Resources
 
+- [EKS Workshop](https://www.eksworkshop.com/)
+- [EKS Best Practices](https://aws.github.io/aws-eks-best-practices/)
+- [EKS Hardening](https://github.com/aws-samples/hardeneks)
+- [EKS Helm Charts](https://github.com/aws/eks-charts)
+- [EKS Blueprints](https://aws-quickstart.github.io/cdk-eks-blueprints/)
