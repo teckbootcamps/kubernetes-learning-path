@@ -6,15 +6,32 @@ If you are planning to use this repo for reference, please hit the star. Thanks!
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available. 
 
-## Kubernetes Certification Voucher (UP TO 40% OFF) 🎉 🎉
 
-As part of our commitment to helping the DevOps community save money on Kubernetes Certifications, we continuously update the latest voucher codes from the Linux Foundation
+## 💰💰 [30% OFF] Kubernetes Certification Coupon (CKAD , CKA , CKS)
 
-🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 30% OFF** today using code **TECK30** at https://teckbootcamps.com/go/kube-promo-devops/. It is a limited-time offer from the Linux Foundation.
+Save 30% using Coupon code **TECK30** on all the Linux Foundation training and certification programs. This is a limited-time offer for this month. This offer is applicable for CKA, CKAD, CKS, KCNA, LFCS, PCA FINOPS, NodeJS, CHFA, and all the other certification, training, and BootCamp programs.
 
-- KCNA + KCSA + CKA + CKAD + CKS ($788 Savings): [teckbootcamps/kubestronaut](https://shrsl.com/4j3p6)
-- CKA + CKAD + CKS Exam bundle ($528 Savings): [teckbootcamps/k8s-bundle](https://shrsl.com/4j3oy)
-- CKA + CKS Bundle ($355 Savings) [teckbootcamps/bundle](https://shrsl.com/4j3ov)
+-  Kubernetes CKAD VOUCHER ($395 —> $276): [kube.promo/ckad](https://teckbootcamps.com/go/ckad-exam-2024/)
+-  Kubernetes CKA VOUCHER ($395 —> $276): [kube.promo/cka](https://teckbootcamps.com/go/cka-exam-2024/)
+-  Kubernetes CKS VOUCHER ($395 —> $276): [kube.promo/cks](https://teckbootcamps.com/go/cks-exam-2024/)
+
+>  Coupon: use code **TECK30** at checkout 
+Hurry Up: Offer Ends Soon.  
+
+-  Kubernetes KCNA $250  —> $175 : [kube.promo/KCNA](https://shrsl.com/4nfid)
+-  Kubernetes KCSA $250  —> $175 : [kube.promo/KCSA](https://shrsl.com/4nfjq)
+-  ISTIO CERTIFIED ASSOCIATE $250  —> $175 : [kube.promo/istio](https://shrsl.com/4nfju)
+-  CKA + CKS  $725  —> $507 : [kube.promo/cka-cks](https://shrsl.com/4j3ov)
+-  CKA + CKAD + CKS $1095  —> $766 : [kube.promo/cka-ckad-cks](https://shrsl.com/4j3oy)
+-  KCNA + KCSA + CKA + CKAD + CKS $1495  —> $1046 : [kube.promo/kubestronaut](https://shrsl.com/4j3p6) 
+
+>  Coupon: use code **TECK30** at checkout 
+Hurry Up: Offer Ends Soon.  
+
+
+> Announcement: The CKA exam syllabus will be updated on November 25th, 2024. Read our CKA exam update [blog] (https://teckbootcamps.com/cka-exam-update-new-features-and-removed-content-explained/) to learn more.
+The CKS exam syllabus will change starting October 10th, 2024. Check out our CKS exam update [blog] (https://teckbootcamps.com/cks-exam-update-whats-new-whats-removed/) for more details.
+If you’re planning to take the CKA or CKS certification and are looking for a discount, take advantage of this offer to get the best deal on CKA or CKS coupons.
 
 
 >Note: You have one year of validity to appear for the certification exam after registration
